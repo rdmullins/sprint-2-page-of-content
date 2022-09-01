@@ -2,10 +2,15 @@
  * Roger Mullins / Team da Vinci      */
  
 body {
-    display: grid;
+    display: flex;
+    flex-flow: row wrap;
     background-color: orange;
     color: white;
     font-family: 'Lato', sans-serif;
+}
+
+header {
+    align-content: center;
 }
 
 h1, h2 {
