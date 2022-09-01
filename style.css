@@ -1,0 +1,22 @@
+/* Awesome Inc. Sprint 2 - HTML & CSS *
+ * Roger Mullins / Team da Vinci      */
+ 
+body {
+    display: grid;
+    background-color: orange;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Italianno', cursive;
+}
+
+h1 {
+    font-size: 60pt;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
