@@ -27,7 +27,7 @@ h1, h2, h3 {
 }
 
 p, input, li {
-    font-family: 'Roboto condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     color: #2a2a2a;
 }
 
@@ -65,7 +65,7 @@ body > * {
 }
 
 main, header, nav, article, aside, footer, section {
-    background-color: rbga(0, 255, 0, 0.5);
+    background-color: rgba(0, 255, 0, 0.5);
     padding: 1%;
 }
 
@@ -137,4 +137,9 @@ aside img {
 
 footer {
     margin-top: 10px;
+    text-align: center;
+}
+
+#interactiveContent {
+    text-align: center;
 }
