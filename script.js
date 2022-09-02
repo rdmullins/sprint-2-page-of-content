@@ -10,15 +10,20 @@ let buttonContents = [
     "Heard what?"
 ];
 
+let conversationPoint = 0;
+
 let interactiveDiv = document.getElementById('interactiveContent');
 
-function interact (conversationPoint) {
+function interact(conversationPoint) {
     console.log("Time through/Corresponding index: ", conversationPoint);
-    let divAreaText = document.createElement('p');
-    let divAreaButton = document.createElement('button');
+    let divAreaText = document.getElementById('feedback');
+    let divAreaButton = document.getElementById('button');
+    // divAreaButton.removeAttribute('click');
     divAreaText.textContent = siteFeedback[conversationPoint];
+    // document.appendChild(divAreaText);
     divAreaButton.textContent = buttonContents[conversationPoint];
-    divAreaButton.addEventListener('click', interact(conversationPoint+1));
-    interactiveDiv.appendChild(divAreaText);
-    interactiveDiv.appendChild(divAreaButton);
+    // divAreaButton.addEventListener('click', 'interact()');
+    // interactiveDiv.appendChild(divAreaText);
+    // interactiveDiv.appendChild(divAreaButton);
+    conversationPoint++;
 }
