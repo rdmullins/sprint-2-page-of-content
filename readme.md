@@ -13,7 +13,7 @@ Project completed according to instructions and guidelines at [MDN Site](https:/
     - Footer
 - CSS applied
 
-### Stretch/Add=Ons
+### Stretch/Add-Ons
 Beyond the above requirements I also:
 - Ran HTML and CSS files through W3 validators
     - CSS passed on initial check
