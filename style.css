@@ -23,7 +23,9 @@ body {
 
 h1, h2, h3 {
     font-family: 'Cinzel Decorative', cursive;
+    font-weight: bolder;
     color: #2a2a2a;
+    text-align: center;
 }
 
 p, input, li {
@@ -49,6 +51,7 @@ h3 {
 p, li {
     font-size: 1.6rem;
     line-height: 1.5;
+    font-weight: bolder;
 }
 
 /* Header */
@@ -72,6 +75,7 @@ main, header, nav, article, aside, footer, section {
 li:hover {
     background-color: lightgreen;
     text-shadow: 2px 2px 10px black;
+    cursor: pointer;
 }
 
 h1 {
@@ -143,6 +147,7 @@ aside img {
 footer {
     margin-top: 10px;
     text-align: center;
+    font-size: .5rem;
 }
 
 #interactiveContent {
